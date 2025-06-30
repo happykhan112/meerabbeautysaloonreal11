@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meerab beauty saloon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding-bottom: 150px;
+    }
+    .main2 {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 14px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      position: relative;
+      padding: 5px 0;
+      transition: color 0.3s ease;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffcc00;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+      .main {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .main h1 {
+      color: #333;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .pic {
+      width: 300px;
+      height: 200px;
+      padding: 10px;
+      position: absolute;
+      left: 30%;
+      top: 90%;
+      border: 9px solid lightgray;
+      border-radius: 6px;
+    }
+
+    .main p {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .list {
+      color: black;
+     .list2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500px;
+      text-align: center;
+      position: relative;
+      left: 30%;
+      top: 90%;
+     }
+
+      
+    }
+    .pic2 {
+      
+      position: absolute;
+      left: 40%;
+      top: 140%;
+      bottom: 40%;
+      border: 8px solid lightgray;
+      border-radius: 6px;
+    }
+    .hh {
+      position: relative;
+      top: 200%;
+    }
+    .text22 {
+      position: relative;
+      left: 70%;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="main">
+  <h1>Meerab beauty saloon</h1>
+  <p>Get everything you need</p>
+</div>
+  <nav>
+    <a href="index.html">Facial</a>
+  <a href="2page.html">products</a>
+    <a href="#">Hairstyling</a>
+    <a href="#">makeup</a>
+    <a href="3page.html">Contact</a>
+  </nav><br>
+  <div class="main2">
+    <h1>products</h1>
+    <img src="goldfacial.jpg " class="pic" width="200" height="200"><br>
+  </div>
+  <br><hr>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="list">
+  
+
+<div class="list2">
+  <p>gold facial : 3000 Rs</p>
+</div>
+<img src="simple.jpg" class="pic2" width="200" height="200">
+<div class="hh"><br><br><br><br><br>
+  <br>
+  <br>
+  <br><hr>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+</div><
+<div class="text22">
+  <p>simple facial :1500 Rs</p>
+</div>
+</div>
+</body>
+</html>

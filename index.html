@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>meerab beauty saloon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 18px;
+      position: relative;
+      padding: 5px 0;
+      transition: color 0.3s ease;
+    }
+
+    nav a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #ffcc00;
+      transition: width 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+      .main {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeInUp 1s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .main h1 {
+      color: #333;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .main p {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+<div class="main">
+  <h1>Meerab beauty saloon</h1>
+  <p>Get everything you need</p>
+</div>
+  <nav>
+    <a href="">Facial</a>
+    <a href="2page.html">products</a>
+    <a href="l">Hairstyling</a>
+    <a href="#">makeup</a>
+    <a href="3page.html">Contact</a>
+  </nav>
+  <div class="para">
+    <h1>facial</h1>
+    <ul>
+      <li>hydra facial</li>
+      <li>gold facial</li>
+      <li>simple facial</li>
+     
+    </ul>
+  </div>
